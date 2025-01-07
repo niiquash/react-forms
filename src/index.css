@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: aquamarine;
+}
+
+.App {
+  width: 400px;
+  margin: 2rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.App > h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.App > form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.signup-form > label {
+  margin-bottom: 0.3rem;
+}
+
+.signup-form > input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  border: rgba(0, 0, 0, 0.2) 1px solid;
+}
+
+.signup-form > textarea {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+  border: rgba(0, 0, 0, 0.2) 1px solid;
+  height: 50px;
+}
+
+.signup-form > fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form > fieldset > legend {
+  margin-bottom: 0.5rem;
+}
+
+.signup-form > fieldset > label {
+  margin-bottom: 0.3rem;
+}
+
+.signup-form select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  border: rgba(0, 0, 0, 0.2) 1px solid;
+}
+
+.signup-form > button {
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
